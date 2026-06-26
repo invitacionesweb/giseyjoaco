@@ -296,7 +296,7 @@ nav {
 /*FOTOS*/
 .novios {
     width: 100%;
-    height: AUTO;
+    height: 90VH;;
     background-image: url(./img-editable/textura1.png);
     background-size: cover;
     background-position: center;
@@ -807,7 +807,7 @@ footer p {
         gap:10px;
     }
     .novios {
-        height: AUTO;
+        height: 72vh;
     }
 
 
