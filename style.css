@@ -88,6 +88,7 @@ body {
     animation: bounce;
     animation-duration:2s;
     animation-iteration-count: unset;
+    z-index: 9999;
 }
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -297,8 +298,8 @@ nav {
 /*FOTOS*/
 .novios {
     width: 100%;
-    height: auto;
-    background-image: url(./img-editable/textura1.png);
+    height: 90VH;
+    background-image: url(./img-editable/textura-11.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -306,9 +307,7 @@ nav {
     display: flex;
 }
 .novios img {
-    width: 80%;
-    max-width: 500px;
-    height: auto;
+    height: 90%;
     margin: auto;
     padding: auto;
    
@@ -433,7 +432,8 @@ nav {
     height: auto;
     color: var(--color-2);
     background-color: var(--color-5);
-    max-width: 80vw;
+    width: 80vw;
+    max-width: 700px;
     text-align: center;
     font-family: var(--font-principal);
     line-height: 1;
@@ -808,9 +808,9 @@ footer p {
         gap:10px;
     }
     .novios {
-        height: auto;
+        height: 70vh;
+        background-image: url(./img-editable/textura1.png);
     }
-
 
     .timeline .iconos {
         flex-direction: column;
