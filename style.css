@@ -4,6 +4,7 @@
     --color-2:#f8f3ed;
     --color-3:#7b7648;
     --color-4:#9a9561;
+    --color-5:#cec397;
     --font-principal:'MiFuente';
     --font-secundaria:'MiFuente2';
 }
@@ -290,13 +291,13 @@ nav {
         font-size: 2.1rem;
         padding: 0px 0 0 0;
         margin: 0px 0px 30px 0;
-        max-width: 320px;
+        max-width: 400px;
     }
 
 /*FOTOS*/
 .novios {
     width: 100%;
-    height: 90VH;;
+    height: auto;
     background-image: url(./img-editable/textura1.png);
     background-size: cover;
     background-position: center;
@@ -408,7 +409,7 @@ nav {
     padding: 40PX 0PX;
     width: 100%;
     margin: auto;
-    background-color: var(--color-1);
+    background-color: var(--color-5);
     display: flex;
     flex-direction: column;
     height: auto;
@@ -431,7 +432,7 @@ nav {
     margin: 4PX auto;
     height: auto;
     color: var(--color-2);
-    background-color: var(--color-1);
+    background-color: var(--color-5);
     max-width: 80vw;
     text-align: center;
     font-family: var(--font-principal);
@@ -616,7 +617,7 @@ label .grupo-opciones {
 }
 
 .radio-option input[type="radio"] {
-  accent-color: var(--color-terciario); /* Cambia el color del círculo si el navegador lo soporta */
+  accent-color: var(--color-4); /* Cambia el color del círculo si el navegador lo soporta */
 }
 .etiqueta {
    font-family: var(--font-principal);
@@ -645,11 +646,11 @@ label .grupo-opciones {
 .formulario input:focus,
 .formulario select:focus,
 .formulario textarea:focus {
-    outline: 2px solid var(--color-1);
+    outline: 2px solid var(--color-4);
 }
 
 .formulario input[type="radio"] {
-    accent-color: var(--color-1);
+    accent-color: var(--color-4);
 }
 
 .formulario input:focus::placeholder,
@@ -807,7 +808,7 @@ footer p {
         gap:10px;
     }
     .novios {
-        height: 72vh;
+        height: auto;
     }
 
 
